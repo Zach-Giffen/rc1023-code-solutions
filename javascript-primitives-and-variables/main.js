@@ -2,20 +2,20 @@ const fullName = 'Zach Giffen';
 const isCool = true;
 const totalPets = 4;
 
-console.log(fullName);
-console.log(isCool);
-console.log(totalPets);
+console.log('value of fullName:', fullName);
+console.log('value of isCool:', isCool);
+console.log('value of totalPets:', totalPets);
 
-console.log(typeof fullName);
-console.log(typeof isCool);
-console.log(typeof totalPets);
+console.log('typeof fullName:', typeof fullName);
+console.log('typeof isCool:', typeof isCool);
+console.log('typeof totalPets:', typeof totalPets);
 
 const unknown = null;
 
-console.log(unknown);
-console.log(typeof unknown);
+console.log('value of unkown:', unknown);
+console.log('typeof unkown:', typeof unknown);
 
 let never;
 
-console.log(never);
-console.log(typeof never);
+console.log('value of never:', never);
+console.log('typeof never:', typeof never);
