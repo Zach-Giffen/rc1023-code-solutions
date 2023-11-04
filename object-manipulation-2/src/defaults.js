@@ -2,7 +2,7 @@
 
 function defaults(target, source) {
   for (const key in source) {
-    if (!target(key)) {
+    if (!(key in target)) {
       target[key] = source[key];
     }
   }
