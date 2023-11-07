@@ -1,0 +1,42 @@
+.modal-box.hidden {
+  display: none;
+}
+
+.modal {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.open-button {
+  background-color: rgb(0, 85, 255);
+  color: white;
+  font-size: 24px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.close-button {
+  background-color: rgb(255, 124, 124);
+  color: white;
+  font-size: 24px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-box.shown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
