@@ -1,0 +1,33 @@
+.bulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+}
+
+.bulb.on {
+  background-color: rgba(224, 224, 39, 0.432);
+}
+
+.bulb.off {
+  background-color: gray;
+  box-shadow: 0 -10px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background.on {
+  background-color: antiquewhite;
+}
+
+.background.off {
+  background-color: rgba(0, 0, 0, 0.824);
+}
