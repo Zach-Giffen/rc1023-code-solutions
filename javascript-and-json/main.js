@@ -23,8 +23,7 @@ const bookstring = JSON.stringify(bookshelf);
 console.log('json bookshelf:', bookstring);
 console.log('type of json bookshelf:', typeof bookstring);
 
-const jsonStudent =
-  '[{"name":"Jason","id":100230},{"name":"Mathew","id":572395}]';
+const jsonStudent = '{"name":"Jason","id":100230}';
 console.log('json student:', jsonStudent);
 console.log('type of json student:', typeof jsonStudent);
 
