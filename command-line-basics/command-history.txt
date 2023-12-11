@@ -1,0 +1,500 @@
+   67  git switch dom-events 
+   68  git add dom-events
+   69  git status
+   70  git commit -m "completed dom-events"
+   71  git push origin dom-events 
+   72  git switch main
+   73  git branch dom-manipulation
+   74  git switch dom-manipulation 
+   75  git add dom-manipulation
+   76  git status
+   77  git commit -m "completed dom-manipulation"
+   78  git push origin dom-manipulation 
+   79  git switch main
+   80  git pull origin main
+   81  git branch css-transfroms
+   82  git switch css-transfroms 
+   83  git add css-transforms
+   84  git status
+   85  git commit -m "completed css-transfroms"
+   86  git push origin css-transfroms 
+   87  git branch -m css-transforms
+   88  git push origin css-transforms 
+   89  git switch main
+   90  git pull origin main
+   91  git branch javascript-light-bulb
+   92  git switch javascript-light-bulb 
+   93  git add javascript-light-bulb
+   94  git status
+   95  git commit -m "completed javascript-light-bulb"
+   96  git push origin javascript-light-bulb 
+   97  git switch main
+   98  git pull origin main
+   99  git branch javascript-modal
+  100  git switch javascript-modal 
+  101  git add javascript-modal
+  102  git status
+  103  git commit -m "completed javascript-modal"
+  104  git push origin javascript-modal 
+  105  git switch main
+  106  git branch css-transitions
+  107  git switch css-transitions 
+  108  git add css-transitions
+  109  git status
+  110  git push origin css-transitions 
+  111  git status
+  112  git commit -m "completed css-transitions"
+  113  git push origin css-transitions 
+  114  git switch main
+  115  git branch javascript-forms
+  116  git switch javascript-forms 
+  117  git add javascript-forms
+  118  git status
+  119  git commit -m "completed javascript-forms"
+  120  git push origin javascript-forms 
+  121  git switch main
+  122  git pull origin main
+  123  git branch dom-creation
+  124  git switch dom-creation 
+  125  git add dom-creation
+  126  git status
+  127  git commit -m "completed dom-creation"
+  128  git push origin dom-creation
+  129  git switch main
+  130  git branch dom-event-delegation
+  131  git switch dom-event-delegation 
+  132  git add dom-event-delegation
+  133  git status
+  134  git commit -m "completed dom-event-delegation"
+  135  git push origin dom-event-delegation 
+  136  git switch main
+  137  git pull origin main
+  138  git branch css-media-queries
+  139  git switch css-media-queries
+  140  git add css-media-queries
+  141  git commit -m "completed css-media-queries"
+  142  git push origin css-media-queries 
+  143  git switch main
+  144  git branch javascript-view-swapping
+  145  git switch javascript-view-swapping 
+  146  git add javascript-view-swapping
+  147  git status
+  148  git commit -m "completed javascript-view-swapping"
+  149  git push origin javascript-view-swapping 
+  150  git switch main
+  151  git pull origin main
+  152  git branch javascript-and-json
+  153  git switch javascript-and-json 
+  154  git add javascript-and-json
+  155  git status
+  156  git commit -m "completed javascript-and-json"
+  157  git push origin javascript-and-json 
+  158  git switch main
+  159  git switch javascript-and-json 
+  160  git add javascript-and-json
+  161  git commmit -m "ereased a student"
+  162  git commit -m "ereased a student"
+  163  git push origin javascript-and-json 
+  164  git switch main
+  165  git pull origin amin
+  166  git pull origin main
+  167  git branch javascript-local-storage
+  168  git switch javascript-local-storage 
+  169  git add javascript-local-storage
+  170  git staus
+  171  git status
+  172  git commit -m "completed javascript-local-storage"
+  173  git push origin javascript-local-storage 
+  174  git switch main
+  175  git branch css-responsive-layout
+  176  git switch css-responsive-layout 
+  177  git add css-responsive-layout
+  178  git commit -m "completed css-responsive-layout"
+  179  git push origin css-responsive-layout 
+  180  git switch main
+  181  git branch issue-1-create-an-entry
+  182  git switch issue-1-create-an-entry 
+  183  git add issue-1-create-an-entry
+  184  git add issue-1-create-an-entry
+  185  git status
+  186  git add issue-1-create-an-entry
+  187  git status
+  188  git add index.html
+  189  git status
+  190  git add css/styles.css 
+  191  git status
+  192  git commit -m "Create the remaining HTML for the header in the header-container so that it matches the figma example. Make sure to take advantage of the included layout classes. #1"
+  193  git push issue-1-create-an-entry
+  194  git push origin issue-1-create-an-entry 
+  195  git status
+  196  git add issue-1-create-an-entry
+  197  git add index.html
+  198  git add styles.css
+  199  git add css/styles.css 
+  200  git status
+  201  git commit -m "Below the header, create the HTML for the form that creates a journal entry in the data-view="entry-form" element. This form needs to match the format shown in the example figma. #1"
+  202  git push origin issue-1-create-an-entry 
+  203  git add css/styles.css 
+  204  git commit -m "completed Complete the HTML form using the appropriate responsive layout classes. #1"
+  205  git push origin issue-1-create-an-entry 
+  206  git add index.html 
+  207  git add js/main.js 
+  208  git add .eslintrc 
+  209  git status
+  210  git commit -m " Make all inputs of the journal entry form required.
+  211   Add an 'input' event listener to the Photo URL input that sets the src attribute of the photo preview to the input's value when the user types or pastes in a new URL. #1"
+  212  git push origin issue-1-create-an-entry 
+  213  git add js/main.js 
+  214  git add index.html 
+  215  git status
+  216  git commit -m "completed  Add a 'submit' event listener to the form element that:
+  217   prevents the page from refreshing when the form is submitted.
+  218   stores the form's input values in a new object.
+  219   assigns an entryId property to the new object, taken from the nextEntryId property of the data model.
+  220   increments the nextEntryId property of the data model so that if another entry is submitted later, it will receive a different entryId.
+  221   adds the new object to the beginning of the data model's array of entries.
+  222   resets the preview image's src attribute back to the placeholder image.
+  223   resets the form. #1"
+  224  git add index.html 
+  225  git commit -m "took out extra div"
+  226  git add index.html 
+  227  git commit -m "fixed some html tags"
+  228  git push origin issue-1-create-an-entry 
+  229  git add js/data.js 
+  230  git add js/main.js 
+  231  git status
+  232  git commit -m "completed  In data.js, add a 'beforeunload' event listener to the window object that serializes the data model as JSON and stores the JSON in localStorage.
+  233   At the bottom of data.js, include a conditional statement that:
+  234   checks to see if there is a JSON data model stored in localStorage.
+  235   if there is, parse it and assign it to the initial data variable so that the user can continue adding entries to the pre-existing data model. #1"
+  236  git add js/main.js 
+  237  git commit -m "completed  In data.js, add a 'beforeunload' event listener to the window object that serializes the data model as JSON and stores the JSON in localStorage.
+  238   At the bottom of data.js, include a conditional statement that:
+  239   checks to see if there is a JSON data model stored in localStorage.
+  240   if there is, parse it and assign it to the initial data variable so that the user can continue adding entries to the pre-existing data model. #1"
+  241  git push origin issue-1-create-an-entry 
+  242  npm i
+  243  cd..
+  244  cd /workspaces
+  245  git clone <git@github.com:Zach-Giffen/code-journal.git>
+  246  cd code-journal
+  247  npm install
+  248   git clone git@github.com:Zach-Giffen/code-journal.git
+  249  cd code-journal
+  250  npm install
+  251  File > Open Folder...
+  252  code .
+  253  git clone git@github.com:NangKTu/week-planner.git
+  254  cd week-planner
+  255  npm install
+  256  cd ..
+  257  cd ..
+  258  git clone git@github.com:NangKTu/week-planner.git
+  259  cd week-planner
+  260  npm install
+  261  git pull origin main
+  262  git add.
+  263  git add .
+  264  git commit -m "witty comment" --no-verify
+  265  git push origin main
+  266  git pull origin main
+  267  git add .
+  268  git commit -m "something" --no-verify
+  269  git push origin main
+  270  git pull origin main
+  271  git add .
+  272  git commit -m "something" --no-verify
+  273  git push origin main
+  274  git switch css-responsive-layout 
+  275  git switch main
+  276  git switch string-manipulation-3
+  277  git add string-manipulation-3
+  278  git status
+  279  git commmit -m 'completed isAnagram and reverseWords"
+  280  '
+  281  git commit -m "completed isAnagram and reverseWords"
+  282  git switch main
+  283  git pull origin main
+  284  git branch es6-template-literals
+  285  git switch es6-template-literals 
+  286  git add es6-template-literals
+  287  git status
+  288  git commit -m "completed es6-template-literals"
+  289  git push origin main
+  290  git push origin es6-template-literals 
+  291  git switch main
+  292  git branch javascript-timers
+  293  git switch javascript-timers 
+  294  git add javascript-timers
+  295  git commit -m "completed javascript-timers"
+  296  git push origin javascript-timers 
+  297  git switch main
+  298  git branch javascript-carousel
+  299  git switch javascript-carousel
+  300  git add javascript-carousel
+  301  git commit -m "completed javascript-carousel"
+  302  git push origin javascript-carousel 
+  303  git switch main
+  304  git switch main
+  305  git switch main
+  306  git commit -m "nothing"
+  307  git add .
+  308  git commit -m "nothing"
+  309  git add.
+  310  git add .
+  311  git status
+  312  git commit -m "nothing"
+  313  git switch main
+  314  git pull origin main
+  315  git branch Issue 3 User can edit an entry
+  316  git branch issue 3-User-can-edit-an-entry
+  317  got branch issue-3-user-can-edit-an-entry
+  318  git branch isuue-3-user-can-edit-entry
+  319  git switch issue-3-user-can-edit-entry
+  320  git --list
+  321  git branch --list
+  322  git branch issue-3-user-can-edit-an-entry
+  323  git switch issue-3-user-can-edit-an-entry 
+  324  git add .
+  325  git commit -m "completed Update the renderEntry function to do the following:
+  326   Add a FontAwesome pencil icon next to the title of each entry which matches the figma example.
+  327   Add a data-entry-id attribute to the li that stores the entryId of the entry being rendered. #3"
+  328  git add .
+  329  git commit "completed Update the renderEntry function to do the following:
+  330   Add a FontAwesome pencil icon next to the title of each entry which matches the figma example.
+  331   Add a data-entry-id attribute to the li that stores the entryId of the entry being rendered. #3"
+  332  git commit -m "completed Update the renderEntry function to do the following:
+  333   Add a FontAwesome pencil icon next to the title of each entry which matches the figma example.
+  334   Add a data-entry-id attribute to the li that stores the entryId of the entry being rendered. #3"
+  335  git add .
+  336  git commit -m "completed Update the renderEntry function to do the following:
+  337   Add a FontAwesome pencil icon next to the title of each entry which matches the figma example.
+  338   Add a data-entry-id attribute to the li that stores the entryId of the entry being rendered. #3"
+  339  git add .
+  340  git commit -m "completed const $photoInput = document.getElementById('photo-url');
+  341      $photoInput.dispatchEvent(new Event('input')); #3"
+  342  git add .
+  343  git commit -m "completed Update the entry form's submit handler to do the following:
+  344   if data.editing is null:
+  345   perform the standard functionality for a new entry
+  346   if data.editing is not null:
+  347   Assign the entry id value from data.editing to the new object with the updated form values.
+  348   Replace the original object in the data.entries array for the edited entry with the new object with the edited data.
+  349   Render a new DOM tree for the new object with the updated data, and replace the original li with the matching data-entry-id value with the new generated DOM tree.
+  350   Update the title on the form to New Entry.
+  351   Reset data.editing to null. #3"
+  352  git add .
+  353  git commit -m "completed Remove all CSS styling that had no affect or was otherwise unnecessary.
+  354   Test all functionality again in a private browsing session.
+  355   Fix all errors. #3"
+  356  git push origin issue-3-user-can-edit-an-entry 
+  357  git pull origin main
+  358  git switch main
+  359  git pull origin main
+  360  git add . 
+  361  git commit -m "completed Add a button to the entry form with the text Delete Entry which is only visible when an entry is currently being edited. #3"
+  362  git add .
+  363  git commit -m "completed Show a confirmation modal when the user clicks Delete Entry
+  364   When the user clicks Cancel, hide the modal. #3"
+  365  git add .
+  366  git commit -m "completed When the user clicks Confirm:
+  367   remove the corresponding entry object from the data model's entry array.
+  368   remove the entry's li element from the DOM.
+  369   conditionally uses the toggleNoEntries function to show the no entries text if needed.
+  370   hide the modal.
+  371   swap to the Entries view. #3"
+  372  git add .
+  373  git commit -m "completed Remove all CSS styling that had no affect or was otherwise unnecessary.
+  374   Test all functionality again in a private browsing session.
+  375   Fix all errors. #3"
+  376  git branch issue-4-user-can-delete-an-entry
+  377  git switch issue-4-user-can-delete-an-entry 
+  378  git add .
+  379  git commit -m "completed everything but forogt to make branch, so now im commiting here. oops"
+  380  git add .
+  381  git commit -m "completed everything but forogt to make a branch, so now im commiting here. oops"
+  382  git push origin issue-4-user-can-delete-an-entry 
+  383  git branch http-messages
+  384  git switch http-messages 
+  385  http http://www.example.com
+  386  http --verbose http://www.example.com
+  387  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  388  http --body GET https://example.com > http-messages/index.html
+  389  git add http-messages
+  390  git commit -m "completed http-messages"
+  391  git push origin http-messages 
+  392  git switch main
+  393  git branch javascript-ajax
+  394  git switch javascript-ajax 
+  395  git add javascript-ajax
+  396  git commit -m "completed javascript-ajax"
+  397  git push origin javascript-ajax 
+  398  git switch main
+  399  git branch objects-revisited
+  400  git switch objects-revisited 
+  401  git add .
+  402  git commit -m "almost completed objects-revisited"
+  403  git push origin objects-revisited 
+  404  git switch main
+  405  git pull origin main
+  406  git branch es6-destructuring
+  407  git switch es6-destructuring 
+  408  git add .
+  409  git commit -m "completed es6-destructuring"
+  410  git push origin es6-destructuring 
+  411  git switch main
+  412  git branch es6-arrow-functions
+  413  git switch es6-arrow-functions 
+  414  git add es6-arrow-functions
+  415  git commit -m "completed es6-arrow-functions"
+  416  git push origin es6-arrow-functions 
+  417  git switch main
+  418  git branch array-methods
+  419  git switch array-methods
+  420  git add array-methods
+  421  git commit -m "completed array-methods"
+  422  git push origin array-methods 
+  423  git switch main
+  424  git branch es6-operators
+  425  git switch es6-operators 
+  426  git add es6-operators
+  427  git commit -m "completed es6-operators"
+  428  git push origin es6-operators 
+  429  git switch main
+  430  git branch npm-intro
+  431  git switch npm-intro 
+  432  cd npm-intro
+  433  cp .npm-init.js ~/.npm-init.js
+  434  npm init --yes
+  435  npm install jquery
+  436  npm install --save-dev
+  437  npm install eslint --save-dev
+  438  npm run hello
+  439  cd ..
+  440  git commit npm-intro
+  441  git add npm-intro
+  442  git commit -m "completed npm-intro"
+  443  git push origin npm-intro 
+  444  git switch main
+  445  npm install typescript --save-dev
+  446  npm install
+  447  git branch typescript-primitives-and-variables
+  448  git switch typescript-primitives-and-variables 
+  449  cd typescript-primitives-and-variables
+  450  npx tsc --watch main.ts
+  451  git add typescript-primitives-and-variables
+  452  cd ..
+  453  git add typescript-primitives-and-variables
+  454  git commit -m "completed typescript-primitives-and-variables"
+  455  git push origin typescript-primitives-and-variables 
+  456  git switch main
+  457  git pull origin main
+  458  git branch typescript-operators-and-expressions
+  459  git switch typescript-operators-and-expressions 
+  460  cd typescript-operators-and-expressions
+  461  cd typescript-operators-and-expressions
+  462  npx tsc --watch main.ts
+  463  cd ..
+  464  git add typescript-operators-and-expressions
+  465  git commit -m "completed typescript-operators-and-expressions"
+  466  git push origin typescript-operators-and-expressions 
+  467  git switch main
+  468  git branch typescript-objects
+  469  git switch typescript-objects 
+  470  cd typescript-objects
+  471  npx tsc --watch main.ts
+  472  cd ..
+  473  git add typescript-objects
+  474  git commit -m "completed typescript-objects"
+  475  git push origin typescript-objects 
+  476  git switch main
+  477  git branch typescript-functions
+  478  git switch typescript-functions 
+  479  cd typescript-functions
+  480  npx tsc --watch main.ts
+  481  cd ..
+  482  git add typescript-functions
+  483  git commit -m "completed typescript-functions"
+  484  git push origin typescript-functions 
+  485  git switch main
+  486  git branch unit-tests-jest
+  487  git switch unit-tests-jest 
+  488  npm install
+  489  npm test
+  490  cd unit-tests-jest
+  491  npm install
+  492  cd ..
+  493  cd unit-tests-jest
+  494  npm install
+  495  npm test
+  496  cd ..
+  497  git add unit-tests-jest
+  498  git commit -m "completed unit-tests-jest"
+  499  git push origin unit-tests-jest 
+  500  git switch main
+  501  git branch command-line-basics
+  502  git switch command-line-basics 
+  503  cd command-line-basics
+  504  man man
+  505  man cat
+  506  man cat
+  507  cat print laziness.txt
+  508  cat laziness.txt
+  509  cat impatience.txt 
+  510  cat hubris.txt 
+  511  cat laziness.txt  impatience.txt  hubris.txt 
+  512  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  513  cat three-virtues.txt 
+  514  man ls
+  515  ls
+  516  ls -a
+  517  ls -f
+  518  ls lfz-staff/
+  519  ls lfz-staff/ -a
+  520  ls lfz-staff/ -f
+  521  ls lfz-staff/ -F
+  522  ls -aF lfz-staff/
+  523  ls -aF lfz-staff/ > lfz-staff/contents.txt
+  524  cat lfz-staff/contents.txt 
+  525  man pwd
+  526  pwd
+  527  pwd > i-was-here.txt
+  528  ls 
+  529  cat i-was-here.txt 
+  530  man echo
+  531  echo 'Hello, World!'
+  532  echo 'Hello, World!' > hello.txt
+  533  ls
+  534  cat hello.txt 
+  535  man touch
+  536  touch tag-youre-it.txt
+  537  touch snoot/boop.txt
+  538  ls snoot/
+  539  man touch
+  540  man mkdir
+  541  mkdir parent
+  542  ls parent/
+  543  mkdir -p parent/child/grandchild
+  544  touch parent/child/grandchild .gitkeep
+  545  ls -a
+  546  touch parent/child/grandchild/.gitkeep
+  547  ls -a
+  548  touch parent/child/.gitkeep
+  549  ls -a
+  550  man mv
+  551  mv pokiemans pokemon
+  552  ls
+  553  man rm
+  554  rm lol.txt
+  555  ls
+  556  rm -r kill-me/
+  557  ls
+  558  man cp
+  559  cp and-then.txt no-and-then.txt
+  560  ls
+  561  cat and-then.txt 
+  562  car no-and-then.txt 
+  563  cat no-and-then.txt 
+  564  man history
+  565  history
+  566  history > command-history.txt
