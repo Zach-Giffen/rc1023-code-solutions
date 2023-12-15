@@ -5,12 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is Express middleware?
-
+  its a way to quickly connect frontend and back end
 - What is Express middleware useful for?
-
+  connecting front end and back end
 - How do you mount a middleware with an Express application?
-
+  use method
 - Which objects does an Express application pass to your middleware to manage the request/response lifecycle of the server?
+  req and res
 
 ## Notes
 
