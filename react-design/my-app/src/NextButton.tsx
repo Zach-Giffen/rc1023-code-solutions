@@ -1,3 +1,7 @@
-export function NextButton() {
-  return <button>Next</button>;
+interface DirectionProps {
+  onClick: () => void;
+}
+
+export function NextButton({ onClick }: DirectionProps) {
+  return <button onClick={onClick}>Next</button>;
 }
