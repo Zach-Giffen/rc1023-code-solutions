@@ -19,7 +19,7 @@ export function List() {
         setIsLoading(false);
       }
     }
-  });
+  }, []);
 
   if (isLoading) {
     return <div>Loading...</div>;
